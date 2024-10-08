@@ -32,20 +32,37 @@ ul {
   border-radius: 15px;
   
 }
-li {
+p 
+{ 
+  width: 20%;
+  background-color: #1F1B2E;
+  margin: 5px;
+  padding: 3px 8px;
+  border-radius: 8px;  
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+p:hover 
+{
+  margin: 5px;
+  padding: 3px 10px;
+   border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+li{
   width: 40%;
   background-color: #1F1B2E;
-
   margin: 5px;
   padding: 3px;
   border-radius: 8px;  
   transition: 0.2s ease-in-out;
-    text-align: center;
-  
+  text-align: center;
 }
-li:hover {
-    padding: 3px 10px 3px 0;
-    width:45%;
+li:hover
+{
+  padding: 3px 10px 3px 0;
+  width:45%;
   color: #F0E9DB ;
 
 }
