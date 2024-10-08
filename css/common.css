@@ -116,6 +116,20 @@ button:hover {
 .gallery-img:hover {
   transform: scale(1.01);
 }
+
+.value-task-04 {
+  width: 30px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px dashed rgb(20, 237, 71);
+  margin: 15px;
+  border-radius: 8px;
+  padding: 0px 10px;
+}
+
 .container-task-07 {
   display: flex;
   gap: 80px;
