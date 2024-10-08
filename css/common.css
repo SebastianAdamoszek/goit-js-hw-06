@@ -32,25 +32,8 @@ ul {
   border-radius: 15px;
   
 }
-p 
-{ 
-  width: 20%;
-  background-color: #1F1B2E;
-  margin: 5px;
-  padding: 3px 8px;
-  border-radius: 8px;  
-  transition: 0.2s ease-in-out;
-  text-align: center;
-  border: 2px solid rgba(0, 0, 0, 0.5);
-}
-p:hover 
-{
-  margin: 5px;
-  padding: 3px 10px;
-   border: 2px solid rgba(0, 0, 0, 0.8);
-}
 
-li{
+a {
   width: 40%;
   background-color: #1F1B2E;
   margin: 5px;
@@ -59,7 +42,7 @@ li{
   transition: 0.2s ease-in-out;
   text-align: center;
 }
-li:hover
+a:hover
 {
   padding: 3px 10px 3px 0;
   width:45%;
